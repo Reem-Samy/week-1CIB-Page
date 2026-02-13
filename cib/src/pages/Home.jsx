@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import "./Home.css"
-import Nav from './../components/Nav';
+import Navbar from './../components/Layout/Navbar';
 
 const  Home= () => {
     return ( 
-<>
-
-<Nav />
-
-
-</>
+    <div className="home">
+      <Navbar />
+     </div>
+  
      );
 }
  
