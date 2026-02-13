@@ -1,0 +1,26 @@
+.btn {
+  border: none;
+  font-family: "Inter";
+  padding: 15px 24px;
+  width: 152px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+border-radius: 6px;
+background: #1858A8;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #1f6fb2;
+  color: #1f6fb2;
+}
