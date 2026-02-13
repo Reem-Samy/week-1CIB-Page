@@ -1,0 +1,9 @@
+.smallTap {
+    font-family: "Inter";
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  font-size: 13px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+color: #333;}
