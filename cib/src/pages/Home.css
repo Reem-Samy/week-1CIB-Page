@@ -47,3 +47,20 @@ background: #FAFAFA;
 
 
 
+.newsSection {
+  background: #ffffff;
+  padding: 70px 0;
+}
+
+.newsList {
+  margin-top: 10px;
+}
+
+.newsBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+
+

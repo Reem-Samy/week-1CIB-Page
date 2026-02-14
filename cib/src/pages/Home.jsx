@@ -17,6 +17,12 @@ import center1 from "../assets/center1.png";
 import center2 from "../assets/center2.png";
 import center3 from "../assets/center3.png";
 
+import NewsCard from "../components/Common/NewsCard";
+
+import news from "../assets/news.png";
+
+
+
 
 
 const  Home= () => {
@@ -69,6 +75,41 @@ const  Home= () => {
     </div>
   </div>
 </section>
+
+
+<section className="newsSection">
+  <div className="container">
+    <SectionTitle title="News" />
+
+    <div className="newsList">
+      <NewsCard
+        img={news}
+        dateLine="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"
+        title="Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"
+        desc="CIB, Egypt’s leading and largest private sector bank, has successfully partnered with CI Capital to complete the seventh issuance for Halan Consumer Finance, valued at EGP 3.4 billion."
+      />
+
+      <NewsCard
+        img={news}
+        dateLine="08/09/2025 - Commercial International Bank (CIB) Successfully Closes EGP 2.3 Billion Securitization Bond Issuance for GlobalCorp Financial Services"
+        title="Commercial International Bank (CIB) Successfully Closes EGP 2.3 Billion Securitization Bond Issuance for GlobalCorp Financial Services"
+        desc="CIB, Egypt’s leading and largest private sector bank, has successfully completed its seventh securitization bond issuance for GlobalCorp Financial Services."
+      />
+
+      <NewsCard
+        img={news}
+        dateLine="21/08/2025 - Commercial International Finance Company (CIFC) Records EGP 4.1 billion in Its First Year of Operations"
+        title="Commercial International Finance Company (CIFC) Records EGP 4.1 billion in its First Year of Operations"
+        desc="CIB is pleased to announce that its subsidiary, CIFC, has delivered remarkable results since its inception."
+      />
+    </div>
+
+    <div className="newsBtn">
+      <Button text="View All News" />
+    </div>
+  </div>
+</section>
+
 
 
 
