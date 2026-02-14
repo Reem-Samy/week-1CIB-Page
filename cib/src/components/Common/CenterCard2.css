@@ -1,5 +1,10 @@
 .card2 {
     padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
   
 .card2 img {
@@ -16,7 +21,7 @@ font-family: "Inter";
     font-weight: 700;
     line-height: 28.08px;
 }
-.card2 .cardparagraph1 {
+.cardparagraph1 {
     color: #333;
 font-family: "Inter";
     font-size: 14px;

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from "react";
 import "./Home.css"
 import Navbar from './../components/Layout/Navbar';
 import Header from "../components/Layout/Header";
@@ -13,12 +13,8 @@ import Button from "../components/Common/Button";
 
 import NewsCard from "../components/Common/NewsCard";
 import CenterCard2 from '../components/Common/CenterCard2';
-
-
-// import CenterCards from '../components/CenterCards';
-// import img1 from '../assets/logo1.png';
-// import img2 from '../assets/logo2.png';
-// import img3 from '../assets/logo3.png';
+import CenterCard3 from '../components/Common/CenterCard3';
+import CenterCard4 from "../components/Common/CenterCard4";
 
 
 
@@ -117,8 +113,44 @@ const  Home= () => {
 <CenterCard2 />
 <CenterCard2 />
         </div>
-        
+
         <Button text="Learn More" />
+        </div>
+
+    </section>
+
+
+    <section className='section-9'>
+        <div className='icons-box'>
+        <div className='title-box'>
+        <SmallMenuTap text="Awards" />
+        <SectionTitle title=" CIB's integrity and quality are recognized internationally" />
+        </div>
+
+        <div className='cards-box'>
+<CenterCard3 />
+<CenterCard3 />
+<CenterCard3 />
+        </div>
+        
+        <Button text="See all our awards" />
+        </div>
+
+    </section>
+
+    <section className='section-9'>
+        <div className='icons-box'>
+        <div className='title-box'>
+        <SmallMenuTap text="We care" />
+        <SectionTitle title=" CIB's integrity and quality are recognized internationally" />
+        </div>
+
+        <div className='cards-box'>
+<CenterCard4 />
+<CenterCard4 />
+<CenterCard4 />
+        </div>
+        
         </div>
 
     </section>
