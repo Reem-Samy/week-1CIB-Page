@@ -10,13 +10,15 @@ import Card from "../components/Common/Card";
 import SubTitle from "../components/Common/SubTitle";
 import CenterCard from "../components/Common/CenterCard";
 import Button from "../components/Common/Button";
-import center1 from "../assets/center1.png";
-import center2 from "../assets/center2.png";
-import center3 from "../assets/center3.png";
 
 import NewsCard from "../components/Common/NewsCard";
+import CenterCard2 from '../components/Common/CenterCard2';
 
 
+// import CenterCards from '../components/CenterCards';
+// import img1 from '../assets/logo1.png';
+// import img2 from '../assets/logo2.png';
+// import img3 from '../assets/logo3.png';
 
 
 
@@ -103,7 +105,23 @@ const  Home= () => {
   </div>
 </section>
 
+<section className='section-8'>
+        <div className='icons-box'>
+        <div className='title-box'>
+          <SmallMenuTap text="Sustainable finance" />
+        <SectionTitle title=" Sustainability is an integral part of the way we work" />
+        </div>
 
+        <div className='cards-box'>
+<CenterCard2 />
+<CenterCard2 />
+<CenterCard2 />
+        </div>
+        
+        <Button text="Learn More" />
+        </div>
+
+    </section>
 
 
 
