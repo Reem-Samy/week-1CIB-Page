@@ -26,3 +26,24 @@ background: #FAFAFA;
 }
 
 
+
+.learningSection {
+  background: #ffffff;
+  padding: 60px 220px;
+}
+
+.learningGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 10px;
+}
+
+.learningBtn {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+
+

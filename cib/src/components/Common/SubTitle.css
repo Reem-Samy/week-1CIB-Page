@@ -1,0 +1,10 @@
+.subTitle {
+  text-align: center;
+  margin: 10px 0 35px;
+color: #333;
+font-family: "Inter";
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 173.16% */
+}
