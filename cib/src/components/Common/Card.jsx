@@ -1,14 +1,15 @@
 import React from "react";
 import "./Card.css";
+import icon1 from "../../assets/icon1.png"
 
-const Card = ({ icon, title }) => {
+const Card = () => {
   return (
     <div className="applyCard">
       <div className="applyIcon">
-        <img src={icon} alt="icon" />
+        <img src={icon1} alt="" />
       </div>
 
-      <p className="applyText">{title}</p>
+      <p className="applyText">Apply for a New Account</p>
     </div>
   );
 };
