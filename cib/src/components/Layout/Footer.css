@@ -1,0 +1,123 @@
+.footer {
+    width: 100%;
+background-image: url("../../assets/footer-back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    color: white;
+  }
+  
+  .large-box {
+    width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .logo-section img {
+    width: 120px;
+  }
+  
+  .links-section {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-family: "Inter";
+  }
+  
+  .column p {
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .column p:hover {
+    text-decoration: underline;
+  }
+  
+  .store-section {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .store-section img {
+    width: 140px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 30px 0;
+  }
+  
+  .bottom-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 35.734px;
+    font-size: 14px;
+    font-family: "Inter";
+}
+.down-box{
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-image{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.regtangle{
+    display: flex;
+    width: 100%;
+    height:72px ;
+    justify-content: flex-end;
+    align-items: center;
+    background: #004A88;
+}
+.paragraph{
+    color: #cccccc;
+    font-family: "Inter";
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 123px;
+}
+.links-section {
+    display: flex;
+    gap: 90px;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-family: "Inter";
+}
+  
+.column p {
+    cursor: pointer;
+    margin: 0;
+}
+  
+.column p:hover {
+    text-decoration: underline;
+}

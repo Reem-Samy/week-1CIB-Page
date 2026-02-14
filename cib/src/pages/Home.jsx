@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css"
-import Navbar from './../components/Layout/Navbar';
+import Navbar from "./../components/Layout/Navbar";
 import Header from "../components/Layout/Header";
 import SubNav from "../components/Common/SubNav";
 import SmallMenuTap from "../components/Common/SmallMenuTap";
@@ -15,6 +15,8 @@ import NewsCard from "../components/Common/NewsCard";
 import CenterCard2 from '../components/Common/CenterCard2';
 import CenterCard3 from '../components/Common/CenterCard3';
 import CenterCard4 from "../components/Common/CenterCard4";
+
+import Footer from "../components/Layout/Footer";
 
 
 
@@ -155,7 +157,7 @@ const  Home= () => {
 
     </section>
 
-
+<Footer/>
 
      </div>
   
